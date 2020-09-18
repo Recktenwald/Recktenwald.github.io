@@ -1,7 +1,7 @@
 ---
 layout: default
 mathjax: true
-title:  "Defining the Tor-Functor and flat covers"
+title:  "Defining the Tor-Functor with a classical flavour"
 date:   06/09/2020 
 categories: Homological-Algebra
 show_abstract: true
