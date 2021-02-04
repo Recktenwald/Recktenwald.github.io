@@ -19,8 +19,8 @@ def foo(val,a=[]):
     return a
 
 foo(1) # [1]
-foo(2) # [2]
-foo(3) # [3]
+foo(2) # [1,2]
+foo(3) # [1,2,3]
 # Some big code block, 
 foo(18) # ???
 ```
