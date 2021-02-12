@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 mathjax: true
 title:  "Defining the Tor-Functor with a classical flavour"
 date:   06/09/2020 

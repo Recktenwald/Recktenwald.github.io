@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 mathjax: true
 title:  "Why I don't like Python as much as some other people do: Part 1 of ∞"
 date:   18/09/2020 
