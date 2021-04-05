@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 title:  "A nice Geometry Puzzle by @Cshearer41"
 date:   06/09/2020 
-categories: Geometry, Puzzle
+categories: geometry-puzzle
 show_abstract: true
 abstract: <img src="/assets/images/HexagonPuzzle.jpeg" alt="sketch of the puzzle" height="100"/>
 ---
