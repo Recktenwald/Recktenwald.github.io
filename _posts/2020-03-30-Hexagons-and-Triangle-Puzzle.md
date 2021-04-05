@@ -48,7 +48,7 @@ c^2 = a^2+b^2 - 2ab \cos(\gamma)
 $$
 as well as the simple fact $\cos(120°)= -\frac12$, on the green triangle
 
-![Law of Cosine triangles](/assets/images/hexagonsAndTrianglePuzzleSolution2.jpg)
+![Law of Cosine triangles](/assets/images/HexagonsAndTrianglePuzzleSolution2.jpg)
 
 First we get $b^2 = a^2 + a^2 -2a^2\cdot \left(-\frac 12\right) = 3a^2$, which means that the big hexagon has three times the area of the small one, i.e. 15 units.
 
@@ -57,7 +57,7 @@ First we get $b^2 = a^2 + a^2 -2a^2\cdot \left(-\frac 12\right) = 3a^2$, which m
 As I said, I couldn't do the last step geometrically. But [Timothy Gowers](https://en.wikipedia.org/wiki/Timothy_Gowers), one of the most famous mathematicians of our time, could do it. He noticed the following triangles.
 
 
-![Geometry all the way](/assets/images/hexagonsAndTrianglePuzzleSolution3.jpg)
+![Geometry all the way](/assets/images/HexagonsAndTrianglePuzzleSolution3.jpg)
 
 It is well-known, and not hard to see, that the green triangle is exactly half of the area of the small hexagon. But we have seen that the green triangle is the same size as the orange ones. There are 6 orange triangles, leading again to an area of 15 units for the big hexagon.
 
