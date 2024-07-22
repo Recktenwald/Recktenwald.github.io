@@ -116,7 +116,7 @@ The prover claims to do a legal training run, using some dataset that doesn’t 
 We are looking for a way that makes it infeasible for the Prover to create a fake protocol with consistent fake weights that still pass inspection. The whole point is that the Verifier does not trust the Prover in this scenario, so we assume everything the Prover can do to fool the Verifier will be done.
 
 
-That means the timing of the weight snapshot needs to be random. The chip would send the weights to be stored in long-term storage of the machine it is connected to (controlled by the Prover), as well as a hash, so that long-term storage cannot be tempered with. The hash will need to be stored directly on the chip, where it cannot be edited by the Prover. 
+That means the timing of the snapshot of the internal data (i.e. the weights of the model) needs to be random. The chip would send the weights to be stored in long-term storage of the machine it is connected to (controlled by the Prover), as well as a "fingerprint" / hash, so that long-term storage cannot be tempered with. The hash will need to be stored directly on the chip, where it cannot be edited by the Prover. 
 
 This assumes such storage exists, and would require the chip producers (assumed to be a trusted third party) to build this functionality on the hardware level and sign the firmware (again so the Prover can’t use their own firmware). 
   
